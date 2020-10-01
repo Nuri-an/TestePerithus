@@ -1,7 +1,7 @@
 const axios = require('axios');
         
 module.exports = {
-    async index(req, res) {
+    async show(req, res) {
 
         const { busca = ''} = req.query; //se existir, recebe a UF fornecida pelo usuário, ou recebe vazio
 
